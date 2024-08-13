@@ -15,7 +15,7 @@ test_set = torchvision.datasets.CIFAR10(root=".dataset", train=False, transform=
 # print(test_set.classes[target])
 # img.show()
 
-print(test_set[0])
+# print(test_set[0])
 
 writer = SummaryWriter("p10")
 for i in range(10):
