@@ -10,7 +10,7 @@ test_loader = DataLoader(dataset=test_data, batch_size=4, shuffle=True, num_work
 # 測試數據集中第一張圖片及target
 img, target = test_data[0]
 print(img)
-print(img.shape)d
+print(img.shape)
 print(target)
 
 writer = SummaryWriter("dataloader")
